@@ -1,5 +1,6 @@
 #include <iostream>
 #include <limits>
+#include <iomanip>
 
 /* TODO
 Используя заголовочный файл <limits>, std::cout, sizeof() и управляющие последовательности
