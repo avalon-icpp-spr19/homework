@@ -1,5 +1,4 @@
-#include <iostream>
-#include <random>
+#include "Extention.hpp"
 
 /* Задание 1
 Объявите массив для хранения 10-ти целочисленных элементов
