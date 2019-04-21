@@ -68,16 +68,16 @@ namespace ext
 		Возвращает сезон (зима, весна, лето, осень) передаваемой даты
 	*/
 	Season getSeason(Date date);
+	
+	/*
+		Сравнивает даты на эквивалентность
+	*/
+	bool isSame(Date lhs, Date rhs);
 		
 	/*
 		Меняет даты местами
 	*/
-	void swap(Date * lhs, Date * rhs);
-
-	/*
-		Сравнивает даты на эквивалентность
-	*/
-	bool isSame(Date* lhs, Date * rhs);
+	void swap(Date * lhs, Date * rhs);	
 
 	/*
 		Возвращает указатель на большую дату
